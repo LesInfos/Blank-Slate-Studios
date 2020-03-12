@@ -1,0 +1,38 @@
+#dynamic 0x800000
+
+#org @start
+lock
+faceplayer
+checkflag 0x20
+if 0x1 goto @done
+msgbox @question 0x5
+compare LASTRESULT 0x1
+if 0x1 goto @givepokemon
+msgbox @nothanks 0x6
+release
+end
+
+#org @done
+msgbox @checkup 0x6
+release
+end
+
+#org @givepokemon 
+givepokemon 0x6 0xA 0x0 0x0 0x0 0x0
+msgbox @received 0x6
+setflag 0x20
+setflag 0x860
+release
+end
+
+#org @question
+= Are you a [green_em] GAMER?
+
+#org @nothanks
+= Damn bro. That blows.
+
+#org @received
+= Charizard sucks. Take it.
+
+#org @checkup
+= Glad I got rid of that Charizard.

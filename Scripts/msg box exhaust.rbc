@@ -1,0 +1,10 @@
+#dynamic 0x800000
+#org @start
+lock
+faceplayer
+msgbox @talk 0x6
+release
+end
+
+#org @talk
+= What the fuck did you just fucking\nsay about me, you little bitch?\pI'll have you know I graduated top\nof my class in the Navy Seals,\land I've been involved in numerous\lsecret raids on Al-Quaeda, and\lI have over 300 confirmed kills.\pI am trained in gorilla warfare\nand I'm the top sniper in the entire\lUS armed forces.\pYou are nothing to me\nbut just another target.\pI will wipe you the fuck out with\nprecision the likes of which has\lnever been seen before on this Earth,\lmark my fucking words.\pYou think you can get away with saying\nthat shit to me over the Internet?\pThink again, fucker.\pAs we speak I am contacting my\nsecret network of spies across\lthe USA and your IP is being traced\lright now so you better prepare\lfor the storm, maggot.\pThe storm that wipes out the pathetic\nlittle thing you call your life.\pYou're fucking dead, kid.\pI can be anywhere, anytime, and\nI can kill you in over\lseven hundred ways,\land that's just with my bare hands.\pNot only am I extensively trained in\nunarmed combat,\lbut I have access to the\lentire arsenal of the\lUnited States Marine Corps\land I will use it to its full extent\lto wipe your miserable ass off\lthe face of the continent,\lyou little shit.\pIf only you could have known what\nunholy retribution your\llittle "clever" comment was about\lto bring down upon you,\lmaybe you would have\lheld your fucking tongue.\pBut you couldn't, you didn't,\nand now you're paying the price,\lyou goddamn idiot.\pI will shit fury all over you\nand you will drown in it.\pYou're fucking dead, kiddo.
