@@ -7,6 +7,7 @@ public class PlayerMovementtemp : MonoBehaviour
 
     public float moveSpeed = 5f;
     public Animator animator;
+    //public Animator animatorGrass;
     public Transform movePoint;
     public Rigidbody2D rb;
 
@@ -27,13 +28,15 @@ public class PlayerMovementtemp : MonoBehaviour
     {
         speed = (transform.position - lastPosition).magnitude;
         lastPosition = transform.position;
-        Debug.Log("speed: " + speed);
+        //Debug.Log("speed: " + speed);
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        // Everything inside here handles grid based movement
 
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -63,4 +66,23 @@ public class PlayerMovementtemp : MonoBehaviour
             }
         }
     }
+
+    //// Detects if player enters grass
+    //private void OnTriggerEnter2D(Collider2D collider)
+    //{
+    //    Debug.Log("Entered!");
+    //    //animatorGrass.SetBool("isEntered", true);
+    //}
+    //// Detects if player exits grass
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    Debug.Log("Exited!");
+    //    //animatorGrass.SetBool("isEntered", false);
+    //}
+    //// Detects if player is currently in grass
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    Debug.Log("Inside!");
+    //}
+
 }
