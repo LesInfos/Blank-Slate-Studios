@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 448, y: 224}
   m_MaxSize: {x: 8008, y: 4024}
   vertical: 0
-  controlID: 20
+  controlID: 183
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 153
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 448, y: 348}
   m_MaxSize: {x: 8008, y: 8048}
   vertical: 1
-  controlID: 19
+  controlID: 182
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 957, y: 498}
   m_MaxSize: {x: 22012, y: 14048}
   vertical: 0
-  controlID: 123
+  controlID: 181
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -637,9 +637,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 047e0000
+      m_SelectedIDs: 24550000
       m_LastClickedID: 0
-      m_ExpandedIDs: defbffff9e600000
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -742,14 +742,15 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Spritesheets
   m_LastFoldersGridSize: 56
-  m_LastProjectPath: C:\Users\Christopher\Desktop\Pokemon Unity\Pokemon Unity
+  m_LastProjectPath: C:\Users\Christopher\Desktop\Blank-Slate-Studios\Code\Pokemon
+    Unity\Pokemon Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 66420000
-    m_LastClickedID: 16998
-    m_ExpandedIDs: 000000009a09000090130000664200003a4a0000a0500000ce7d0000d07d0000d27d000000ca9a3b
+    m_SelectedIDs: 72420000
+    m_LastClickedID: 17010
+    m_ExpandedIDs: 000000009c0900009613000072420000484a0000ae500000d6830000d8830000da83000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -777,7 +778,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a09000090130000664200003a4a0000a0500000ce7d0000d07d0000d27d0000
+    m_ExpandedIDs: 000000009c0900009613000072420000484a0000ae500000d6830000d8830000da830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -829,7 +830,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 357}
+    m_ScrollPosition: {x: 0, y: 254}
     m_GridSize: 56
   m_DirectoriesAreaWidth: 258
 --- !u!114 &24
@@ -863,9 +864,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.261111, y: 6.113155, z: 0.1171875}
+    m_Target: {x: -2.5567496, y: 1.0715826, z: 0.09765625}
     speed: 2
-    m_Value: {x: -3.261111, y: 6.113155, z: 0.1171875}
+    m_Value: {x: -2.5567496, y: 1.0715826, z: 0.09765625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -889,22 +890,22 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.538457
+    m_Target: 11.65785
     speed: 2
-    m_Value: 9.538457
+    m_Value: 11.65785
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
-  m_ShowGlobalGrid: 0
+  m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
